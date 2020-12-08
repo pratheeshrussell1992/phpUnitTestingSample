@@ -1,10 +1,7 @@
-name: PHPUNIT Testing
+name: PHPUNIT_Testing
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [workflow_dispatch]
+
 
 jobs:
   build:
