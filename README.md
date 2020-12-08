@@ -3,6 +3,9 @@ phpunit sample test
 
 ![PHPUNIT_Testing](https://github.com/pratheeshrussell1992/phpUnitTestingSample/workflows/PHPUNIT_Testing/badge.svg)
 
+To run the tests first run  
+composer install  
+
 You can run the test with one of the following commands
 
 vendor/bin/phpunit  
