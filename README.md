@@ -12,4 +12,6 @@ vendor/bin/phpunit --filter testAddSuccess
 Will run only the method testAddSuccess
 
 vendor/bin/phpunit --testsuite calcTest  
-Will run the testsuite calcTest (refer phpunit.xml) you can combine it with filter command also
+Will run the testsuite calcTest (refer phpunit.xml) you can combine it with filter command also  
+
+Refer https://phpunit.readthedocs.io/en/9.3/assertions.html for other assertions
