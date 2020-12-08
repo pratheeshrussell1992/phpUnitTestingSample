@@ -11,19 +11,19 @@ class ConverterTest extends TestCase {
          $this->assertEquals(5, $calc->Add(2,3));
     }
 
-    public function testAddFail() {
-        $calc = new testsample\calc\Calculator();
-        $this->assertEquals(10, $calc->Add(2,3));
-    }
+//     public function testAddFail() {
+//         $calc = new testsample\calc\Calculator();
+//         $this->assertEquals(10, $calc->Add(2,3));
+//     }
 
     public function testMultiplySuccess() {
         $calc = new Calculator();
         $this->assertEquals(6, $calc->Multiply(2,3));
     }
 
-    public function testMultiplyFail() {
-        $calc = new testsample\calc\Calculator();
-        $this->assertEquals(10, $calc->Multiply(2,3));
-    }
+//     public function testMultiplyFail() {
+//         $calc = new testsample\calc\Calculator();
+//         $this->assertEquals(10, $calc->Multiply(2,3));
+//     }
 	
 }
